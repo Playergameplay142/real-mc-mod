@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "cinecamera",
+  "version": "1.0.0",
+  "name": "CineCamera",
+  "description": "Sinematik 1. / 2. / 3. sahis kamera sistemi (F5 ile gecis).",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.cinecamera.CineCameraClient"]
+  },
+  "mixins": ["cinecamera.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": ">=26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

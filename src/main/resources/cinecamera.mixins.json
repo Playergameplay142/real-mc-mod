@@ -1,0 +1,9 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.example.cinecamera.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": ["CameraMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
